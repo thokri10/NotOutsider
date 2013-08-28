@@ -13,7 +13,7 @@ function Start ()
 
 function Update () 
 {
-	if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), hit, 1000)) 
+	if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), hit, 1000) && hit.collider.gameObject.tag != "Projectile") 
 	{
 		target = hit.point;
 	}
