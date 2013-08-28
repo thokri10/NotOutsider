@@ -50,6 +50,7 @@
      <Compile Include="Assets\Inventory.js" />
      <Compile Include="Assets\Item.js" />
      <Compile Include="Assets\Movement.js" />
+     <Compile Include="Assets\Projectile.js" />
      <Compile Include="Assets\SpawnAsteroids.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
