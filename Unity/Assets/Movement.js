@@ -23,8 +23,9 @@ function Update ()
 	{
 		Pitch();
 		Yaw();
-		Roll();
 	}
+	
+	Roll();
 	
 	Accelerate();
 	
