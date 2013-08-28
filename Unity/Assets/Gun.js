@@ -24,7 +24,10 @@ function Update ()
 	
 	transform.LookAt(target);
 	
-	Fire();
+	if (!transform.parent.gameObject.GetComponent(Movement).freeMode)
+	{
+		Fire();
+	}
 }
 
 function Fire()
