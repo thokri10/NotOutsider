@@ -46,19 +46,16 @@ function CheckDistance()
 
 function Accelerate()
 {
-		if (!freeMode)
-		{
-			speed += Input.GetAxis("Vertical");
-		}
+		speed += Input.GetAxis("Vertical");
 		
-		if (Input.GetAxis("Vertical") < 0 && !freeMode) //DECELERATE
+		if (Input.GetAxis("Vertical") < 0) //DECELERATE
 		{
 			if (speed < min_speed)
 			{
 				speed = min_speed;
 			}
 		}
-		else if(Input.GetAxis("Sprint") > 0 && Input.GetAxis("Vertical") > 0  && !freeMode) //SPRINT ACCELERATE
+		else if(Input.GetAxis("Sprint") > 0 && Input.GetAxis("Vertical") > 0) //SPRINT ACCELERATE
 		{
 			speed += Input.GetAxis("Vertical") * 2;
 			
@@ -67,7 +64,7 @@ function Accelerate()
 				speed = max_speed * 2;
 			}
 		}
-		else if (Input.GetAxis("Vertical") > 0  && !freeMode) //ACCELERATE
+		else if (Input.GetAxis("Vertical") > 0) //ACCELERATE
 		{
 			if (speed > max_speed)
 			{
