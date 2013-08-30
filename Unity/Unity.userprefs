@@ -1,11 +1,13 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\SpawnAsteroids.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Gun.js">
     <Files>
-      <File FileName="Assets\Movement.js" Line="78" Column="23" />
+      <File FileName="Assets\Destroyable.js" Line="59" Column="2" />
+      <File FileName="Assets\Movement.js" Line="163" Column="3" />
       <File FileName="Assets\SpawnAsteroids.js" Line="9" Column="3" />
-      <File FileName="Assets\Gun.js" Line="1" Column="1" />
-      <File FileName="Assets\Projectile.js" Line="1" Column="1" />
+      <File FileName="Assets\Gun.js" Line="39" Column="90" />
+      <File FileName="Assets\Projectile.js" Line="28" Column="44" />
+      <File FileName="Assets\Attributes.js" Line="2" Column="19" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

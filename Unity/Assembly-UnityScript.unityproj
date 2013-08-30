@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Attributes.js" />
+     <Compile Include="Assets\Destroyable.js" />
      <Compile Include="Assets\FollowMouse.js" />
      <Compile Include="Assets\Gun.js" />
      <Compile Include="Assets\Inventory.js" />
